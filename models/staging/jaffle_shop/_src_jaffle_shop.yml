@@ -17,8 +17,8 @@ sources:
       - name: customers
         freshness: null
 
-  - name: stripe
-    database: raw
-    schema: stripe
-    tables:
-      - name: payment
+ #  - name: stripe
+ #   database: raw
+ #   schema: stripe
+ #   tables:
+ #     - name: payment
