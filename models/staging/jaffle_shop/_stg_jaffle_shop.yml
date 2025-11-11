@@ -12,7 +12,8 @@ models:
         data_tests:
           - unique
           - not_null
-      - name: status
+          
+      - name: order_status
         data_tests:
           - accepted_values:
               values:
@@ -21,6 +22,7 @@ models:
               - placed
               - return_pending
               - returned
+
       - name: customer_id
         data_tests:
           - relationships:
