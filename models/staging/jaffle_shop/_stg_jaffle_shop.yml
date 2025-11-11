@@ -29,6 +29,7 @@ models:
               - returned
 
       - name: customer_id
+        description: Foreign key to stg_customers.customer_id
         data_tests:
           - relationships:
               field: customer_id
